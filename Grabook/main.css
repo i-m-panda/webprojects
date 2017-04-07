@@ -1,6 +1,6 @@
 
         body {
-            background-image: url(img/library.jpg);
+            background-image: url(img/library101.jpg);
             background-position: center center;
             background-attachment: fixed;
             background-size: cover;
@@ -59,3 +59,55 @@
         box {
             margin: 20% auto 20% auto;
         }
+.menu {
+        width: 50%;
+        padding: 20px;
+        margin: 5% auto 5% auto;
+        background-color: rgba(79, 87, 86, 0.7);
+        border-radius: 10px 10px;
+        border: 0px;
+    }
+    .menu form {
+        display: table;
+    }
+    
+    .menu p {
+        display: table-row;
+    }
+    
+    .menu label {
+        letter-spacing: 0.1em;
+        color: white;
+        display: table-cell;
+    }
+    
+    .menu input {
+        border-radius: 4px;
+        padding: 2px 2px 2px 5px;
+        margin-bottom: 10px;
+        display: table-cell;
+    }
+    .menu textarea{
+        border-radius: 4px;
+        display: table-cell;
+    }
+    
+    input#price {
+        margin-top: 4px;
+        width: 15%
+    }
+    
+    h3 {
+        letter-spacing: 0.1em;
+        color: #e0e4e6;
+    }
+    
+    img {
+        float:left;
+    }
+    #bts{
+        padding:6px;
+         position: relative;
+        left: 100%;
+        margin-top: 10px;
+    }

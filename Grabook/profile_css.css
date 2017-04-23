@@ -19,8 +19,8 @@ div #header img {
     margin: 0 auto;
 }
 
-aside{
-    width: 200px;
+aside {
+    width: 20%;
     height: 100vh;
     float: left;
     background-color: #34495e;
@@ -58,9 +58,59 @@ h3.panel-title {
     text-align: center;
 }
 
-#first {
+#first1 {
     margin-top: 5px;
 }
+
 .panel-body {
-	word-wrap: break-word; 
+    word-wrap: break-word;
+}
+
+.custom_container1 {
+    width: 80%;
+    height: 100vh;
+    float: left;
+}
+
+.mobile {
+    background-color: #24384b;
+    text-align: center;
+    padding: 4px;
+}
+
+.mobile a {
+    display: block;
+    color: white;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+.mobile a:active {
+    color: white;
+    background-color: #415b74;
+    text-decoration: none;
+}
+
+.mobile a:focus {
+    color: white;
+    text-decoration: none;
+}
+
+.mobile a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.mob aside {
+    width: 100%;
+    text-align: center;
+    height: auto;
+}
+
+.custom-container2 {
+    width: 100%;
+}
+
+#first2 {
+    margin-top: 245px;
 }
